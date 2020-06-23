@@ -1,0 +1,322 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    background-color: white;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #ffffff00; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+/* Body Section */
+.body-section{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+#section-body{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+#row-col{  
+    position: relative; 
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+}
+/* Title */
+#title{
+    position: relative;
+    margin-top: 0%;
+    left: -1%;
+    width: 30%;
+    height: auto;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#title-line h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    line-height: 200%;
+    letter-spacing: 3px;
+    color: rgb(77, 77, 77);
+    /* background-color: #4bd187; */
+}
+
+
+#input-form, #input-form:hover{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    text-shadow: none;
+    box-shadow: none;
+    border:none;
+    outline: none;
+    outline-color: none;
+}
+#forms{
+    position: relative;
+    height: auto;
+}
+#row-col div {
+    text-align: center;
+}
+.content-section{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    font-size: 0.5em;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.432);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.432);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.432);
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-left: 3px solid #4bd187;
+  
+}
+.content-section div, .content-section div ul{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.content-section div ul{
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#list-type{
+    position: relative;
+    height: 100%;
+}
+.all-List{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}
+#delete-button{
+    background-color: rgba(204, 204, 204, 0);
+    color: #ff88a2;
+    border: none;
+    outline: none;
+}
+#task_input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.85em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #555555;
+    background-color: #94949450;
+    border:none;
+    border-left: 2px solid #4bd187;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.list-items{
+    position: relative;
+}
+
+input, input:focus {
+    outline:none;
+}
+.inputs,.inputs-strike{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    font-size: 0.56em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #414040;
+}
+.inputs-strike
+{
+    color: rgb(173, 173, 173);
+    font-weight: 700;
+    pointer-events: none;
+    letter-spacing: 3px;
+    text-decoration: line-through;
+}
+.btn-edit, #btn-save, #bDelete{
+    position: relative;
+    width: 100%;
+    display: none;
+}
+.done{
+    font-size: 3em;
+    color: #404140;
+}
+#nav-count{
+    position: relative;
+    line-height: 50%;
+    font-size: 3em;
+    color: #404140;
+}
+#nav-count h6{
+    position: relative;
+    line-height: 250%;
+    font-size: 0.7em;
+}
+#left-items{
+    position: relative;
+    line-height: 220%;
+    font-size: 1.5em;
+    color: #404140;
+    font-family: 'Nanum Gothic',sans-serif;
+}
+.list-items{
+    position: relative;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+#allButton, #completed-button, #incomplete-button, #clear-history{
+    border: none;
+    font-size: 1.5em;
+    background-color: #404140;
+}
+#clear-history{
+    background-color: #ff3762;
+}
+
+#list-contents:hover #bDelete {
+    display: block;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark,.checkmark-in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.checkmark-in {
+    background-color: white;
+    border: 2px solid #ff88a2;
+}
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a background */
+.container input:checked ~ .checkmark {
+    background-color: #4bd187;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+#showMain, #all, #completed, #incomplete
+{
+    position: relative;
+} 
+
+#nav-rows{
+    position: relative;
+}
