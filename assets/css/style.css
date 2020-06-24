@@ -74,7 +74,10 @@ background: #555;
     /* background-color: #4bd187; */
 }
 
-
+#section-row{
+    position: relative;
+    width: 100%;
+}
 #input-form, #input-form:hover{
     position: relative;
     width: 100%;
